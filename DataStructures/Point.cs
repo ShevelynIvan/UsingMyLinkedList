@@ -1,6 +1,6 @@
 ﻿namespace DataStructures
 {
-    public class Point <T> 
+    public class Point <T> where T : IEquatable<T>
     {
         public Point(T value)
         {

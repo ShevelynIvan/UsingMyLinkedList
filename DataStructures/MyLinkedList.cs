@@ -1,6 +1,6 @@
 ﻿namespace DataStructures
 {
-    public class MyLinkedList<T>
+    public class MyLinkedList<T> where T : IEquatable<T>
     {
         /// <summary>
         /// List for storing points 
