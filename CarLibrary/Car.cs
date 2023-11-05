@@ -25,5 +25,10 @@
         {
             return HashCode.Combine(Name, Color);
         }
+
+        public override string ToString()
+        {
+            return $"Car name: {Name}; color: {Color}";
+        }
     }
 }
